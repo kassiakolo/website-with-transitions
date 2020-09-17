@@ -9,9 +9,21 @@ html {
     text-align: center;
   }
 
-.button {
+button {
     font-size: 16px;
     color: aquamarine;
+    text-align: center;
+    display: inline-block;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 400px;
+   }
+button:hover {
+    transition-property: background-color;
+    background-color: cadetblue;
+    transition: background-color 700ms ease-in-out 300ms;
 }
 
 /* Features Section */
@@ -24,6 +36,10 @@ html {
 .line-style2 {
     font-size: 21px;
     color: gray;
+}
+
+#features-section img {
+    padding-top: 20px;
 }
 
 /*Footer*/
